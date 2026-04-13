@@ -1,2 +1,0 @@
-# wjk
-my assignment
