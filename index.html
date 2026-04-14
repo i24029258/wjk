@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shijiazhuang · Real Urban Stories</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="nav-minimal">
+  <h2>📍 SHIJIAZHUANG · everyday authenticity</h2>
+</header>
+
+<!-- INTRO with vibrant gradient -->
+<section class="intro gradient-bg">
+  <h1>A City You Didn’t Expect</h1>
+  <p>Shijiazhuang isn’t a glossy tourist magnet — and that’s exactly why it feels real.<br>Daily life, movement, and the honest rhythm of modern China.</p>
+  <div class="scroll-hint">↓ scroll to explore ↓</div>
+</section>
+
+<!-- STORY 1 -->
+<section class="story">
+  <img src="images/city.jpg" alt="Urban landscape of Shijiazhuang">
+  <div class="text">
+    <h2>🌆 Urban Identity · Transport Hub</h2>
+    <p>As the capital of Hebei Province, Shijiazhuang is a key railway and highway artery. It connects northern China and mirrors the rapid yet grounded development of modern cities.</p>
+    <p>Unlike famous destinations, it shows an unpolished, honest face of urban growth.</p>
+  </div>
+</section>
+
+<!-- STORY 2 -->
+<section class="story reverse">
+  <img src="images/morning.jpg" alt="Morning life in park">
+  <div class="text">
+    <h2>☀️ Morning Rhythm · Local Soul</h2>
+    <p>Early mornings are quiet and grounded — parks fill with people practicing Tai Chi, chatting, and stretching. It's the calm, human side of the city.</p>
+  </div>
+</section>
+
+<!-- FULL IMAGE with overlay -->
+<section class="full-image">
+  <img src="images/night.jpg" alt="Night streetscape">
+  <div class="overlay-text">
+    <h2>🌙 After Dark · Slow Pace</h2>
+    <p>Lights, streets, and a relaxed tempo.</p>
+  </div>
+</section>
+
+<!-- STORY 3 -->
+<section class="story">
+  <img src="images/history.jpg" alt="Revolutionary history museum">
+  <div class="text">
+    <h2>📜 Historical Memory · Red Legacy</h2>
+    <p>The city carries deep connections to modern Chinese revolutionary culture. Museums and memorials keep history alive — part of everyday life, not just textbooks.</p>
+  </div>
+</section>
+
+<!-- STORY 4 -->
+<section class="story reverse">
+  <img src="images/mountain.jpg" alt="Taihang Mountains nearby">
+  <div class="text">
+    <h2>⛰️ Nature Nearby · Taihang Spirit</h2>
+    <p>A short trip from downtown, the Taihang Mountains offer wild landscapes. This contrast defines the city's character — industry, history, and nature side by side.</p>
+  </div>
+</section>
+
+<!-- GALLERY GRID -->
+<section class="gallery">
+  <img src="images/citylife.jpg" alt="Street life" class="gallery-img">
+  <img src="images/street.jpg" alt="Local street scene" class="gallery-img">
+  <img src="images/night2.jpg" alt="Evening glow" class="gallery-img">
+  <img src="images/park.jpg" alt="Park greenery" class="gallery-img">
+</section>
+
+<!-- TEXT BLOCK with glow effect -->
+<section class="text-block card-glow">
+  <h2>✨ Why Visit Shijiazhuang?</h2>
+  <p>It's not about iconic landmarks — it's about experiencing the daily texture of a real Chinese city. Away from over-commercialized tourism, you'll find observation, reflection, and the genuine rhythm of local life.</p>
+  <p>Walk the streets, taste the noodles, and let the city surprise you with its honesty.</p>
+</section>
+
+<!-- NEW INTERACTIVE MODULE: random city facts -->
+<section class="interactive-module">
+  <div class="module-inner">
+    <h2>🎲 City Slices · Random Discoveries</h2>
+    <div class="fact-card" id="funFactDisplay">
+      <p id="funFactText">Click the button to unlock a little-known story about Shijiazhuang 🌟</p>
+    </div>
+    <button class="vibrant-btn" id="randomFactBtn">🔍 Explore Random Fact</button>
+    <div class="interaction-hint">✨ each click reveals a new hidden gem</div>
+  </div>
+</section>
+
+<!-- QR SECTION (optional) -->
+<section class="qr-center">
+  <h2>📱 Scan to Explore More</h2>
+  <p>Access the full project online</p>
+  <img src="images/qr.png" alt="QR code">
+</section>
+
+<footer>
+  <p>© Shijiazhuang Story Project · honest & everyday</p>
+  <a href="food.html" class="footer-link">🥢 Taste Shijiazhuang →</a>
+</footer>
+
+<!-- LIGHTBOX MODAL (hidden by default) -->
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+<div id="wuhanModal" class="wuhan-modal">
+  <div class="wuhan-modal-content">
+    <span class="wuhan-close">&times;</span>
+    <h2>🌇 Welcome to Wuhan</h2>
+    <p>Explore the city of the Yellow Crane Tower, hot dry noodles, and the mighty Yangtze River.</p>
+    <p>Come discover its resilience, culture, and flavors.</p>
+    <button class="wuhan-modal-btn" id="wuhanModalCloseBtn">Explore Later</button>
+  </div>
+</div>
+	</body>
+</html>

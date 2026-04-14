@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Story · Shijiazhuang Flavors</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="food-page"> <!-- 额外类用于特定样式 -->
+
+<section class="intro small food-hero">
+  <h1>🍜 Food of Shijiazhuang</h1>
+  <p>Simple, warm, and deeply connected to daily life</p>
+  <div class="scroll-hint">↓ scroll to taste ↓</div>
+</section>
+
+<section class="story">
+  <img src="images/noodle.jpg" alt="Handmade noodles">
+  <div class="text">
+    <h2>🍜 Handmade Noodles · Wheat Soul</h2>
+    <p>Wheat-based food is central to northern China. Handmade noodles are simple, affordable, and satisfying. Each bowl carries the texture of local craftsmanship.</p>
+    <div class="food-tag"># comfort food # chewy bliss</div>
+  </div>
+</section>
+
+<section class="story reverse">
+  <img src="images/dumpling.jpg" alt="Dumplings">
+  <div class="text">
+    <h2>🥟 Dumplings · Family & Tradition</h2>
+    <p>Dumplings represent togetherness and heritage. Especially important during festivals and family gatherings, they are the taste of home in every bite.</p>
+    <div class="food-tag"># festive flavor # handmade love</div>
+  </div>
+</section>
+
+<section class="full-image">
+  <img src="images/street.jpg" alt="Street food scene">
+  <div class="overlay-text">
+    <h2>🔥 Street Food Energy</h2>
+    <p>sizzling woks, night stalls, local rhythms</p>
+  </div>
+</section>
+
+<section class="story">
+  <img src="images/snack.jpg" alt="Local snacks">
+  <div class="text">
+    <h2>🍢 Local Snacks · Alley Bites</h2>
+    <p>Small food stalls offer a variety of flavors — from grilled skewers to fried treats. The streets themselves become open-air kitchens.</p>
+    <div class="food-tag"># street eats # bold flavors</div>
+  </div>
+</section>
+
+<section class="gallery food-gallery">
+  <img src="images/noodle.jpg" alt="Noodle closeup" class="gallery-img">
+  <img src="images/dumpling.jpg" alt="Dumpling steamer" class="gallery-img">
+  <img src="images/snack.jpg" alt="Snack stall" class="gallery-img">
+  <img src="images/street.jpg" alt="Night market" class="gallery-img">
+</section>
+
+<section class="text-block card-glow food-card">
+  <h2>🥢 More Than a Meal</h2>
+  <p>In Shijiazhuang, food is never just fuel — it's a conversation, a memory, a daily ritual. The city's food scene blends northern heartiness with modern creativity. From early breakfast stalls to late-night noodle joints, every bite tells a story.</p>
+  <p>Come hungry, leave with a deeper understanding of local life.</p>
+</section>
+
+<section class="interactive-module">
+  <div class="module-inner">
+    <h2>🎲 Taste Discoveries · Random Food Facts</h2>
+    <div class="fact-card" id="foodFactDisplay">
+      <p id="funFactText">Click the button to explore delicious secrets 🥟</p>
+    </div>
+    <button class="vibrant-btn" id="randomFoodFactBtn">🍜 Random Bite Story</button>
+    <div class="interaction-hint">✨ every click serves a new flavor fact</div>
+  </div>
+</section>
+
+<section class="qr-center">
+  <h2>📱 Explore the Full Project</h2>
+  <p>Scan for more stories & recipes</p>
+  <img src="images/qr.png" alt="QR code">
+</section>
+
+<footer>
+  <a href="index.html" class="footer-link">🏠 Back to City Story</a>
+  <p>© Food Story · Shijiazhuang taste roots</p>
+</footer>
+
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
